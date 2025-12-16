@@ -1,0 +1,21 @@
+require("dotenv").config();
+
+const {
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  GOOGLE_REDIRECT_URI,
+  PORT,
+  JWT_SECRET,
+  MONGODB_URI,
+} = process.env;
+
+const CONSTANTS = {
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  GOOGLE_REDIRECT_URI,
+  PORT,
+  JWT_SECRET,
+  MONGODB_URI,
+};
+
+module.exports = CONSTANTS;
