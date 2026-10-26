@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function Login() {
   const navigate = useNavigate();
 
-  // після повернення з Google у URL приходить ?token=...
+  // після повернення з Google у URL приходить ?token=...test
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const token = params.get("token");
